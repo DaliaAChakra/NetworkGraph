@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        { "id": 1, "label": "Node 1", "image": "/images/default-image.png", "score": 14},
+        { "id": 2, "label": "Node 2", "image": "/images/num1.png", "score": 29 },
+        { "id": 3, "label": "Node 3", "image": "../src/images/num1.png", "score": 16 },
+        { "id": 4, "label": "Node 4", "image": "../src/images/num1.png", "score": 34 },
+        { "id": 5, "label": "Node 5", "image": "../src/images/num1.png", "score": 47 },
+        { "id": 6, "label": "Node 6", "image": "../src/images/num1.png", "score": 110 },
+        { "id": 7, "label": "Node 7", "image": "../src/images/num1.png", "score": 12 },
+        { "id": 8, "label": "Node 8", "image": "../src/images/num1.png", "score": 7 }
+   
+    ],
+    "edges": [
+        { "from": 1, "to": 2 },
+        { "from": 1, "to": 3 },
+        { "from": 1, "to": 4 },
+        { "from": 1, "to": 5 },
+        { "from": 2, "to": 1 },
+        { "from": 2, "to": 4 },
+        { "from": 2, "to": 8 },
+        { "from": 3, "to": 5 },
+        { "from": 4, "to": 2 },
+        { "from": 4, "to": 3 },
+        { "from": 4, "to": 1 },
+        { "from": 5, "to": 1 },
+        { "from": 5, "to": 2 },
+        { "from": 5, "to": 3 },
+        { "from": 5, "to": 4 },
+        { "from": 5, "to": 6 },
+        { "from": 5, "to": 7 }
+        
+    ]
+}
